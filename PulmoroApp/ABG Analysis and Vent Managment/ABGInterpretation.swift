@@ -165,7 +165,15 @@ struct ABGInterpretationSheet: View {
 }
 
 #Preview {
-  
+//    BalancepH(ABGData: ABGClass,
+//              VentData: $patientData.VentSettingsClass,
+//              VentParameters: $patientData.VentParametersClass)
+    let patientData = PatientData()
+        return BalancepH(
+            ABGData: .constant(patientData.ABGClass),
+            VentData: .constant(patientData.VentSettingsClass),
+            VentParameters: .constant(patientData.VentParametersClass)
+            )
 }
 ///ABG Interpretator
 func interpretABG(pH: Double?, paCO2: Double?, HCO3: Double?, PaO2: Double?, FiO2: Double?) -> (String, String, String, String, String) {
@@ -401,7 +409,7 @@ struct VentSettingInterpretationSheet: View {
                     Image(systemName: "waveform.path.ecg")
                         .padding(.leading, 20)
                         .foregroundStyle(.red)
-                    Text("Input Vent Settings")
+                    Text("Input Ventilator Settings and Parameters")
                         .font(.system(size: 12, weight: .light))
                         .foregroundStyle(.red)
                     
