@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13C5964E2D7CBA260077846B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C5964D2D7CBA260077846B /* Assets.xcassets */; };
+		137B4AAF2D7DFE0400491587 /* PulmoroHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B4A902D7DFE0400491587 /* PulmoroHomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +28,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13C596462D7CBA250077846B /* PulmoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulmoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C5964D2D7CBA260077846B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		13C596562D7CBA260077846B /* PulmoroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulmoroAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C596602D7CBA260077846B /* PulmoroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulmoroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B4A902D7DFE0400491587 /* PulmoroHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulmoroHomePage.swift; sourceTree = "<group>"; };
+		137B4AFD2D7E09B300491587 /* PulmoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PulmoroApp.app; path = "/Users/hamzacrichlow/Documents/Pulmoro/PulmoroApp/build/Debug-iphoneos/PulmoroApp.app"; sourceTree = "<absolute>"; };
+		137B4AFE2D7E09B300491587 /* PulmoroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PulmoroAppTests.xctest; path = "/Users/hamzacrichlow/Documents/Pulmoro/PulmoroApp/build/Debug-iphoneos/PulmoroApp.app/PlugIns/PulmoroAppTests.xctest"; sourceTree = "<absolute>"; };
+		137B4AFF2D7E09B300491587 /* PulmoroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PulmoroAppUITests.xctest; path = "/Users/hamzacrichlow/Documents/Pulmoro/PulmoroApp/build/Debug-iphoneos/PulmoroAppUITests-Runner.app/PlugIns/PulmoroAppUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		13C596482D7CBA250077846B /* PulmoroApp */ = {
+		137B4ABC2D7E091A00491587 /* ABG and Vent Managment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PulmoroApp;
+			path = "ABG and Vent Managment";
 			sourceTree = "<group>";
 		};
-		13C596592D7CBA260077846B /* PulmoroAppTests */ = {
+		137B4ADC2D7E093200491587 /* Calculations */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PulmoroAppTests;
+			path = Calculations;
+			sourceTree = "<group>";
+		};
+		137B4AF52D7E093500491587 /* Information */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Information;
+			sourceTree = "<group>";
+		};
+		137B4AFA2D7E093900491587 /* Logic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Logic;
 			sourceTree = "<group>";
 		};
 		13C596632D7CBA260077846B /* PulmoroAppUITests */ = {
@@ -80,22 +90,13 @@
 		13C5963D2D7CBA250077846B = {
 			isa = PBXGroup;
 			children = (
-				13C5964D2D7CBA260077846B /* Assets.xcassets */,
-				13C596482D7CBA250077846B /* PulmoroApp */,
-				13C596592D7CBA260077846B /* PulmoroAppTests */,
+				137B4A902D7DFE0400491587 /* PulmoroHomePage.swift */,
+				137B4AFA2D7E093900491587 /* Logic */,
+				137B4AF52D7E093500491587 /* Information */,
 				13C596632D7CBA260077846B /* PulmoroAppUITests */,
-				13C596472D7CBA250077846B /* Products */,
+				137B4ABC2D7E091A00491587 /* ABG and Vent Managment */,
+				137B4ADC2D7E093200491587 /* Calculations */,
 			);
-			sourceTree = "<group>";
-		};
-		13C596472D7CBA250077846B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13C596462D7CBA250077846B /* PulmoroApp.app */,
-				13C596562D7CBA260077846B /* PulmoroAppTests.xctest */,
-				13C596602D7CBA260077846B /* PulmoroAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,13 +115,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				13C596482D7CBA250077846B /* PulmoroApp */,
+				137B4ABC2D7E091A00491587 /* ABG and Vent Managment */,
+				137B4ADC2D7E093200491587 /* Calculations */,
+				137B4AF52D7E093500491587 /* Information */,
+				137B4AFA2D7E093900491587 /* Logic */,
 			);
 			name = PulmoroApp;
 			packageProductDependencies = (
 			);
 			productName = PulmoroApp;
-			productReference = 13C596462D7CBA250077846B /* PulmoroApp.app */;
+			productReference = 137B4AFD2D7E09B300491587 /* PulmoroApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		13C596552D7CBA260077846B /* PulmoroAppTests */ = {
@@ -136,14 +140,11 @@
 			dependencies = (
 				13C596582D7CBA260077846B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				13C596592D7CBA260077846B /* PulmoroAppTests */,
-			);
 			name = PulmoroAppTests;
 			packageProductDependencies = (
 			);
 			productName = PulmoroAppTests;
-			productReference = 13C596562D7CBA260077846B /* PulmoroAppTests.xctest */;
+			productReference = 137B4AFE2D7E09B300491587 /* PulmoroAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		13C5965F2D7CBA260077846B /* PulmoroAppUITests */ = {
@@ -166,7 +167,7 @@
 			packageProductDependencies = (
 			);
 			productName = PulmoroAppUITests;
-			productReference = 13C596602D7CBA260077846B /* PulmoroAppUITests.xctest */;
+			productReference = 137B4AFF2D7E09B300491587 /* PulmoroAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 13C596412D7CBA250077846B /* Build configuration list for PBXProject "PulmoroApp" */;
+			buildConfigurationList = 13C596412D7CBA250077846B /* Build configuration list for PBXProject "Pulmoro" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -202,7 +203,7 @@
 			mainGroup = 13C5963D2D7CBA250077846B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 13C596472D7CBA250077846B /* Products */;
+			productRefGroup = 13C5963D2D7CBA250077846B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -218,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C5964E2D7CBA260077846B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137B4AAF2D7DFE0400491587 /* PulmoroHomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +403,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PulmoroApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +430,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PulmoroApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -522,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13C596412D7CBA250077846B /* Build configuration list for PBXProject "PulmoroApp" */ = {
+		13C596412D7CBA250077846B /* Build configuration list for PBXProject "Pulmoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13C596682D7CBA260077846B /* Debug */,
