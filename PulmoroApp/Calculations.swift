@@ -21,7 +21,8 @@ struct Calculations: View {
         .init(name: "Oxygen Content") ,
         .init(name: "Oxygen Index"),
         .init(name: "Oxygen Tank Duration") ,
-        .init(name: "Tidal Volume")
+        .init(name: "Tidal Volume"),
+        .init(name: "P/F Ratio")
     ]
     
     var body: some View {
