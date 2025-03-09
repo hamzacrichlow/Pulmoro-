@@ -2,7 +2,7 @@
 
 A clinical decision support application designed to simplify ventilator management and arterial blood gas interpretation for clinicians. Pulmoro transforms complex medical decision-making into an accessible experience through intuitive design.
 
-![Image](https://github.com/user-attachments/assets/717f101a-5ba4-4a6e-aaed-d5aba93e63c1)
+![Image](https://github.com/user-attachments/assets/8a349461-450c-4a98-98eb-da1310ebbd70)
 
 ### Key Features
 - Arterial Blood Gas (ABG) Interpreter: Analyzes ABG lab values and provides treatment recommendations
