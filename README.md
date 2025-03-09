@@ -39,13 +39,13 @@ My approach prioritizes clinical efficiency through minimalist aesthetics and th
 - Designed information architecture that mirrors existing clinical thought processes to reduce learning curve
 - Created a visual hierarchy that prioritizes critical patient data while maintaining clean aesthetic
 
-## Roadmap (in progress...)
+## Roadmap 
 - [x] Arterial Blood Gas Interpreter
-- [x] Basic Medical Calculators
+- [x] Suite of Medical Calculators
 - [x] Educational Content Integration
-- [ ] Expanded Treatment Algorithm
+- [ ] Expanded Treatment Algorithm and Decision Making Tree
 - [ ] Additional Specialized Calculators
-- [ ] Upload to App Store!
+- [ ] Upload to App Store!!!
 
 # Author Info
 Hamza Crichlow |
