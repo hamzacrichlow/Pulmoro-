@@ -1,4 +1,4 @@
-# Pulmoro (currently in development)
+# Pulmoro (In Active Development)
 
 A clinical decision support application designed to simplify ventilator management and arterial blood gas interpretation for clinicians. Pulmoro transforms complex medical decision-making into an accessible experience through intuitive design.
 
