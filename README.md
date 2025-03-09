@@ -4,6 +4,9 @@ A clinical decision support application designed to simplify ventilator manageme
 
 ![Image](https://github.com/user-attachments/assets/8a349461-450c-4a98-98eb-da1310ebbd70)
 
+## How to Use Pulmoro
+Pulmoro is a specialized clinical decision support application designed for healthcare professionals managing respiratory patients. Developed by me - a practicing Respiratory Therapist - this tool equips physicians, nurses, RT specialists, and critical care teams with real-time ABG interpretation, ventilator management calculations, and evidence-based treatment recommendations. Users can quickly analyze arterial blood gases, calculate optimal respiratory parameters, and access case studies for continuing education—all through an intuitive interface optimized for high-pressure clinical environments. By providing immediate access to critical calculations and decision support, Pulmoro helps reduce medical errors, standardize care protocols, and improve patient outcomes in intensive care, emergency medicine, and pulmonary settings.
+
 ### Key Features
 - Arterial Blood Gas (ABG) Interpreter: Analyzes ABG lab values and provides treatment recommendations
 - Ventilator Management Tools: Suggests appropriate settings based on patient parameters and lab values
@@ -11,11 +14,8 @@ A clinical decision support application designed to simplify ventilator manageme
 - Educational Components: Detailed guides explaining clinical relevance and calculation methods
 - Visual Alert System: Color-coded indicators for quick identification of abnormal values
 
-## How to Use Pulmoro
-Pulmoro is a specialized clinical decision support application designed for healthcare professionals managing respiratory patients. Developed by me - a practicing Respiratory Therapist - this tool equips physicians, nurses, RT specialists, and critical care teams with real-time ABG interpretation, ventilator management calculations, and evidence-based treatment recommendations. Users can quickly analyze arterial blood gases, calculate optimal respiratory parameters, and access case studies for continuing education—all through an intuitive interface optimized for high-pressure clinical environments. By providing immediate access to critical calculations and decision support, Pulmoro helps reduce medical errors, standardize care protocols, and improve patient outcomes in intensive care, emergency medicine, and pulmonary settings.
-
 ## Development Journey
-This repository documents my process building Pulmoro. As the sole designer and developer, I've created this application entirely in Swift and SwiftUI using Xcode. The project uniquely combines my seven years of clinical experience as a Respiratory Therapist with my technical design skills, allowing me to create tools that address real needs I've observed in healthcare settings. Throughout development, I've conducted extensive research across medical literature to ensure all calculations and recommendations maintain clinical accuracy. This ongoing project represents my commitment to creating truly useful applications for healthcare professionals by bridging my dual expertise in respiratory care and iOS development.
+This repository documents my ongoing process of building Pulmoro. As the sole designer and developer, I've created this application entirely in Swift and SwiftUI using Xcode. The project uniquely combines my seven years of clinical experience as a Respiratory Therapist with my technical design skills, allowing me to create tools that address real needs I've observed in healthcare settings. Throughout development, I've conducted extensive research across medical literature to ensure all calculations and recommendations maintain clinical accuracy. This ongoing project represents my commitment to creating truly useful applications for healthcare professionals by bridging my dual expertise in respiratory care and iOS development.
 
 ### Frameworks
 - Swift
