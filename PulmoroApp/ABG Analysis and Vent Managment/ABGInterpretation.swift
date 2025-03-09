@@ -488,3 +488,22 @@ struct BalancepH: View {
     }
 }
 
+/*
+ Commit Messages
+ New Feature:
+ [Feature] Description of the feature
+ 
+ Bug in Production:
+ [Patch] Description of patch
+ 
+ Bug not in production:
+ [Bug] Description of the bug
+ 
+ Mundane Tasks:
+ [Clean] Description of changes
+ 
+ Release:
+[Release] Description of release
+ 
+
+ */
